@@ -2,7 +2,7 @@
 
 <div class="openedxscorm_block">
     {% if index_page_url %}
-    <h3>Test</h3>
+    <h3 class="hd hd-3 problem-header">{{scorm_xblock.display_name}}</h3>
     {% if scorm_xblock.has_score %}
     <p>
         <span class="grade">{{ grade|floatformat }}</span>/{{ scorm_xblock.weight|floatformat }} {% trans "points" %}
