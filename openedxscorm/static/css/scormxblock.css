@@ -17,7 +17,7 @@
     position: fixed;
     border: none;
     overflow: hidden;
-    top: 55px;
+    top: 75px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -50,18 +50,10 @@
 	background-color: transparent;
 	min-width: 8em;
 	padding: .25rem .75rem;
-	font-size: .875rem;
 	line-height: 1.7143;
 	border-radius: 0;
 	font-weight: 600;
 }
-
-.openedxscorm_block .grade_element {
-    font-style: italic;
-    margin: 0;
-    padding: 0 0 1rem;  
-    color: #212529;
-  }
 
 .openedxscorm_block .scorm_button button:hover {
 	color: #fff;

@@ -4,7 +4,7 @@
     {% if index_page_url %}
     <h3 class="hd hd-3 problem-header">{{scorm_xblock.display_name}}</h3>
     {% if scorm_xblock.has_score %}
-    <p class="grade_element">
+    <p class="problem-progress">
         <span class="grade">{{ grade|floatformat }}</span>/{{ scorm_xblock.weight|floatformat }} {% trans "points" %}
         (<span class="completion_status">{% trans completion_status %}</span>)
     </p>
@@ -12,10 +12,10 @@
 
     <div class="js-scorm-block">
         <div class="scorm_button">
-            <button class="js-button-full-screen full-screen-on">
+            <button class="jbtn s-button-full-screen full-screen-on">
                 {% trans "Fullscreen" %}
             </button>
-            <button class="js-button-full-screen full-screen-off">
+            <button class="btn js-button-full-screen full-screen-off">
                 {% trans "Exit fullscreen" %}
             </button>
         </div>
