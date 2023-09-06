@@ -61,6 +61,10 @@
 	border-color: #e41d37;
 }
 
+.scorm_button button:focus {
+	outline: none
+}
+
 .openedxscorm_block .scorm_button button:before {
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 600;
