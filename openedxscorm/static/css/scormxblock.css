@@ -90,3 +90,10 @@
 .openedxscorm_block .full-screen-scorm .full-screen-on {
     display: none;
 }
+
+.openedxscorm_block  .problem-progress {
+    font-size: .875rem;
+    font-style: italic;
+    margin: 0;
+    padding: 0 0 1rem;
+}    
