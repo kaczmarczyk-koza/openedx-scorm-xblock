@@ -91,7 +91,7 @@
     display: none;
 }
 
-.openedxscorm_block  .problem-progress {
+.openedxscorm_block  p.problem-progress {
     font-size: .875rem;
     font-style: italic;
     margin: 0;
