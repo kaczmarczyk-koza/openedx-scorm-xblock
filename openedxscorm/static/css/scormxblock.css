@@ -91,10 +91,9 @@
     display: none;
 }
 
-.openedxscorm_block p:first-of-type {
+.openedxscorm_block .problem-progress {
     font-size: .875rem;
     font-style: italic;
     margin: 0;
-    padding: 0 0 1rem;  
-    color: #212529;
-  }  
+    padding: 0 0 1rem;
+}    
