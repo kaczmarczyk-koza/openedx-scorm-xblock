@@ -71,13 +71,7 @@
 	padding-right: .5em;
 }
 
-.openedxscorm_block .scorm_button .full-screen-on:before {
-	content: "\f065";
-}
 
-.openedxscorm_block .scorm_button .full-screen-off:before {
-	content: "\f066";
-}
 
 .openedxscorm_block .full-screen-scorm .scorm_button {
     padding: 20px;
