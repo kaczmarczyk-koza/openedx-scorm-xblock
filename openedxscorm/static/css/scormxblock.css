@@ -65,13 +65,11 @@
 	outline: none
 }
 
-.openedxscorm_block .scorm_button button:before {
-	font-family: 'Font Awesome 5 Free';
-	font-weight: 600;
+.openedxscorm_block .fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
 	padding-right: .5em;
 }
-
-
 
 .openedxscorm_block .full-screen-scorm .scorm_button {
     padding: 20px;
