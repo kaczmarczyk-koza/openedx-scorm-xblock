@@ -87,7 +87,7 @@ class ScormXBlock(XBlock, CompletableXBlockMixin):
     # - cmi.completion_status: "completed" vs "incomplete"
     # - cmi.success_status: "passed" vs "failed"
     # We denormalize these two elements by storing the completion status in self.lesson_status.
-    lesson_status = String(scope=Scope.user_state, default_name=_("not attempted"))
+    lesson_status = String(scope=Scope.user_state, default_name=_("not attempted test"))
     success_status = String(scope=Scope.user_state, default_name=_("unknown"))
 
     lesson_score = Float(scope=Scope.user_state, default=0)
